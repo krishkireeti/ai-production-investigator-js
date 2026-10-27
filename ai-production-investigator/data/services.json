@@ -1,0 +1,17 @@
+[
+    {
+        "name": "order-service",
+        "status": "HEALTHY",
+        "version": "3.1.0"
+    },
+    {
+        "name": "credit-service",
+        "status": "DEGRADED",
+        "version": "2.4.1"
+    },
+    {
+        "name": "customer-service",
+        "status": "HEALTHY",
+        "version": "1.8.2"
+    }
+]
