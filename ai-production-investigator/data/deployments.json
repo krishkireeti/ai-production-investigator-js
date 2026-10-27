@@ -1,0 +1,16 @@
+[
+    {
+        "version": "2.4.0",
+        "service": "credit-service",
+        "environment": "production",
+        "timestamp": "2026-09-25T10:00:00Z",
+        "status": "SUCCESS"
+    },
+    {
+        "version": "2.4.1",
+        "service": "credit-service",
+        "environment": "production",
+        "timestamp": "2026-09-26T14:15:00Z",
+        "status": "SUCCESS"
+    }
+]

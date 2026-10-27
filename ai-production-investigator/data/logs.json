@@ -1,0 +1,34 @@
+[
+    {
+        "timestamp": "2026-09-26T14:30:10Z",
+        "service": "order-service",
+        "level": "INFO",
+        "correlationId": "CORR-1001",
+        "message": "Order request received",
+        "orderId": "ORD-10045"
+    },
+    {
+        "timestamp": "2026-09-26T14:30:11Z",
+        "service": "credit-service",
+        "level": "INFO",
+        "correlationId": "CORR-1001",
+        "message": "Credit check started",
+        "orderId": "ORD-10045"
+    },
+    {
+        "timestamp": "2026-09-26T14:30:16Z",
+        "service": "credit-service",
+        "level": "ERROR",
+        "correlationId": "CORR-1001",
+        "message": "Validation service timeout after 5000ms",
+        "orderId": "ORD-10045"
+    },
+    {
+        "timestamp": "2026-09-26T14:30:16Z",
+        "service": "order-service",
+        "level": "ERROR",
+        "correlationId": "CORR-1001",
+        "message": "Credit check failed with HTTP 504",
+        "orderId": "ORD-10045"
+    }
+]
